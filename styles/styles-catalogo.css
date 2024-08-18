@@ -1,0 +1,263 @@
+header{         /*cabeçalho*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+body{
+    font-family: 'intersemi' ;
+    top: 60px;
+ 
+ }
+
+
+.index-logo{
+    position: relative;
+    top: 0px;
+    left: 16px;
+}
+
+li > a{
+    display: inline-block;
+    color: #4F87D2;
+    margin: 16px;
+    text-decoration: none;
+    list-style: none; 
+    font-family: 'intermedium';
+}
+
+li > a:hover{
+   color: #4F87D2;
+}
+
+li > a::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    border-radius: 200px;
+    background-color: #4F87D2;
+   
+ }
+
+ li >a:hover::after{
+    width: 100%;
+}
+
+
+.box-catalogo{
+    position: relative;
+    border:none;
+    width: 1900px;
+    height: 100px;
+    background-color: #F9FAFB;
+    margin-top: 16px;
+    margin-left: 0px;  
+}
+
+.btn{
+    font-family: 'interregular';
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: black 0.5s ease;
+    margin-left: 16px;
+    margin-top: 32px;
+    left: 16px;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+.btn:hover{
+    background-color: #3767A5;
+    color: white;
+}
+
+.box-local{
+    position: relative;
+    border: none;
+    width: 423px;
+    height: 100px;
+    background-color: #F9FAFB;
+    margin-top: 0px;
+    margin-left: 0px;  
+}
+
+.input-local{
+    font-family: 'interregular';
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: white;
+    font-size: 16px;
+    margin-left: 32px;
+    width: 300px;
+    height: 20px;
+    margin-top: 40px;
+}
+
+#local{
+    font-family: 'interregular';
+    color: black;
+    font-size: 16px;
+    margin-left:32px;
+    margin-top: 16px;
+    position: absolute;
+    display: flex;
+}
+
+.box-marcas{
+    position: relative;
+    border: none;
+    width: 423px;
+    height: 100px;
+    background-color: #F9FAFB;
+    margin-top: 0px;
+    margin-left: 0px;  
+}
+
+.box-veiculos{
+    position: relative;
+    border: nones;
+    width: 423px;
+    height: 100px;
+    background-color: #F9FAFB;
+    margin-top: 0px;
+    margin-left: 0px;  
+}
+
+.btn-veiculos{
+     
+}
+
+.box-ano{
+    position: relative;
+    border: none;
+    width: 423px;
+    height: 100px;
+    background-color: #F9FAFB;
+    margin-top: 0px;
+    margin-left: 0px;  
+}
+
+
+.box-preco{
+    position: relative;
+    border: none;
+    width: 423px;
+    height: 100px;
+    background-color: #F9FAFB;
+    margin-top: 0px;
+    margin-left: 0px;  
+}
+
+
+.box-card{
+    position: relative ;
+    left: 423px;
+    top: -515px;
+    background-color: #D1D5DB;
+    height: 2800px;
+    width: 1475px;
+    
+    
+}
+
+.box{
+    position: relative;
+    border: 1px solid #6C6C6C ;
+    background-color: #F9FAFB;
+    margin: 8px;
+    width: 227px;
+    top: 16px;
+    left: 8px;
+    float: left;
+    display: none;
+}
+
+
+
+.box-title{
+   font-family: 'interregular'; 
+   color: black;
+   font-size: 23px;
+   margin-left: 8px;
+   margin-top: 8px;
+}
+
+.box-content{
+    font-family: 'interlight';
+    color: #6B7280;
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 0px;
+}
+
+.box-price{
+    font-family: 'interregular'; 
+    color: black;
+    font-size: 19px;
+    margin-left: 8px;
+    margin-top: 16px;
+
+}
+
+.box-sub{
+    font-family: 'interlight';
+    color: #6B7280;
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 0px;
+}
+
+
+.btnanuncio{
+    cursor: pointer;
+    background-color: #3767A5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-left: 56px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.show{
+    display: block;
+}
+
+.single-item{
+
+}
+
+.single-item img {
+    float: left;
+    width: 227px;
+    height: 166px;
+    background-color: transparent;
+  }
+
+
+.single-marcas img{
+    width: 40px;;
+    height: 40px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.single-marcas{
+    margin-left: 32px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <link href="./styles/fonts.css" rel="stylesheet">
+    <link href="./styles/styles-catalogo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />   
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="index-logo">
+            <a href="index.html"> <img src="./components/images/correa.png" height="80px" width="80px"  alt="index"></a>
+            </div>
+        <ul style="list-style: none;">
+            <li>
+            <a href="adcveiculos.html">Vender</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="login.html">Já é cadastrado ?</a>
+            </li>
+        </ul>
+    </header>
+    <div class="box-catalogo">
+            <div class="buttons">
+            <button class="btn" onclick="filterElements('Todos')">Todos</button>
+            <button class="btn" onclick="filterElements('carros')">Carros</button>
+            <button class="btn" onclick="filterElements('motos')">Motos</button>
+            </div>
+            
+            </div>
+        </div>
+    <!--localização -->
+    <div class="box-local">
+        <label id="local">Localização</label>
+        <input type="text" class="input-local" placeholder="Digite sua cidade ou estado">
+    </div>
+
+    <!--Box de marcas-->
+    <div class="box-marcas">
+        <label id="local">Marcas</label> 
+        <div class="single-marcas">
+            <div><a href="https://www2.mercedes-benz.com.br/"><img src="components/images/mercedes.png"  alt="Image 1"></a></div>
+            <div><img src="components/images/bmw.png" alt="Image 1"></div>
+            <div><img src="components/images/volvo.png" alt="Image 1"></div>
+            <div><img src="components/images/ford.png" alt="Image 1"></div>
+            <div><img src="components/images/porsche.png" alt="Image 1"></div>
+            <div><img src="components/images/volks.png" alt="Image 1"></div>
+          </div>
+        
+    </div>
+
+    <div class="box-veiculos">
+        <label id="local">Veículos</label>   
+
+    </div>
+
+    <div class="box-ano">
+        <label id="local">Ano</label>  
+    </div>
+
+    <div class="box-preco">
+        <label id="local">Preço</label>  
+    </div>
+
+    <!--Box com conteúdo -->
+    <div class="box-card">
+        <div class="box carros">
+            <div class="single-item">
+                <img src="components/images/focus2.jpg" alt="Focus">
+                <img src="components/images/focus2.jpg" alt="Focus">
+                <img src="components/images/focus2.jpg" alt="Focus">
+            </div>
+            <div class="box-title">
+                Ford Focus
+            </div>
+            <div class="box-content">
+                1.6 SE Flex 4P Manual
+            </div>
+            <div class="box-price">
+                R$60.0000
+            </div>
+            <div class="box-sub">
+                São Paulo
+            </div>
+            <button class="btnanuncio" type="button">Ver anúncio</button>
+            
+         </div>
+         <div class="box motos">
+            <div class="single-item">
+                <div><img src="components/images/moto.jpg" alt="Image 1"></div>
+                <div><img src="components/images/moto.jpg" alt="Image 1"></div>
+                <div><img src="components/images/moto.jpg" alt="Image 1"></div>
+                <div><img src="components/images/moto.jpg" alt="Image 1"></div>
+                <div><img src="components/images/moto.jpg" alt="Image 1"></div>
+                <div><img src="components/images/moto.jpg" alt="Image 1"></div>
+              </div>
+            <div class="box-title">
+                Motoca
+            </div>
+            <div class="box-content">
+                1.6 SE Flex 4P Manual
+            </div>
+            <div class="box-price">
+                R$60.0000
+            </div>
+            <div class="box-sub">
+                São Paulo
+            </div>
+            <button class="btnanuncio" type="button">Ver anúncio</button>
+            </div>
+    </div>
+    <script src="scripts.js"></script>
+
+</body>
+</html>

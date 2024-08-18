@@ -1,0 +1,97 @@
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    font-family: 'intermedium';
+}
+
+h1{
+    font-size: 40px;
+}
+
+label{
+    color: #3767A5;
+    font-family: 'intersemi' ;
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 16px;
+}
+
+form input[type="submit"] {
+    height: 40px;
+    width: 112%;
+    background-color: #3767A5;
+    color: white;
+    font-weight: 'intersemi';
+    margin-top: 16px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+input{
+    height: 30px;
+    width: 100%;
+    font-family: 'interlight';
+    border: 1px solid #6C6C6C;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: #F3F4F6;
+    
+}
+
+::placeholder{
+    color: #6B7280;
+    
+}
+
+form .nav-login a {
+    text-decoration: none;
+    color: #3767A5;
+    font-size: 13px;
+    font-family: 'interlight';
+}
+
+form .nav-cadastro a {
+    font-size: 13px;
+    color: #3767A5 ;
+    text-decoration: none;
+    font-family: 'interlight';
+    
+}
+
+
+p{
+    font-size: 13px;
+    color: #6B7280;
+    font-family: 'interlight';
+}
+
+.logo{
+    position: fixed;
+    max-width: 200px;
+    right: 320px;
+    top: 50px;
+}
+
+main{
+    position: fixed;
+    left:70%;
+    top: 25%;
+ 
+}
+
+.telalogin{
+    position: fixed;
+    left: -5px;
+    top: 0px;
+}

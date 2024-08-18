@@ -1,0 +1,97 @@
+/*cabeçalho*/
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.index-logo{
+    position: relative;
+    top: 0px;
+    left: 16px;
+}
+
+li > a{
+    display: inline-block;
+    color: #4F87D2;
+    margin: 16px;
+    text-decoration: none;
+    list-style: none; 
+    font-family: 'intermedium';
+   
+}
+
+li > a:hover{
+   color: #4F87D2;
+}
+
+li > a::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    border-radius: 200px;
+    background-color: #4F87D2;
+   
+ }
+
+ li >a:hover::after{
+    width: 100%;
+}
+
+/*Imagens*/
+.picture{
+    width: 400px;
+    aspect-ratio: 16/9;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    cursor: pointer;
+    font-family: 'interbold';
+    border: 2px dashed currentColor;
+    transition: color 300ms ease-in-out,  300ms;
+}
+
+
+.cadastro{
+        display: flex;
+        align-content: space-around;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 150px;
+}
+
+
+.cadastro ::placeholder{
+    font-family: 'interlight';
+    color: #6B7280;
+    font-size: 13px;
+}
+
+.cadastro select{
+    font-family: 'interregular';
+    color: #6B7280;
+    font-size: 13px;
+}
+
+.cadastro label{
+    font-family: 'interregular';
+    color: #6B7280;
+    font-size: 16px;
+}
+
+input{
+    cursor: pointer;
+    background-color: #3767A5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 13px;
+}

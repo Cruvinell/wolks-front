@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Veículos</title>
+    <link href="./styles/styles-add.css" rel="stylesheet">
+    <link href="./styles/fonts.css" rel="stylesheet">
+</head>
+<body>
+    <header><!--Cabeçalho-->
+        <div class="index-logo">
+            <a href="index.html"> <img src="./components/images/correa.png" height="80px" width="80px"  alt="index"></a>
+            </div>
+        <ul style="list-style: none;">
+            <li>
+            <a href="adcveiculos.html">Vender</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="login.html">Já é cadastrado ?</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="cadastro">
+                        <!--Cadastro de Marcas-->
+            <label>Marca*</label>
+            <select id="marcas">
+            <option value="">Selecione a marca</option>
+            </select>
+
+                        <!--Cadastro de Modelos-->
+            <label>Modelo*</label>
+            <select id="modelos">
+            <option value="">Selecione o modelo</option>
+            </select>
+
+                        <!--Cadastro de Ano-->
+            <label>Ano*</label>
+            <select id="ano">
+            <option value="">Selecione o ano</option>
+            </select>
+                        <!--Cadastro de Ano de fabricação-->
+            <label>Ano de fabricação*</label>
+            <select id="anof">
+            <option value="">Selecione o ano de fabricação</option>
+            </select>
+                        <!--Cadastro de Versão (ex: 1.6 turbo)-->
+            <label>Versão*</label>            
+            <select id="versao">
+            <option value="">Selecione a versão do carro</option>
+            </select>
+                         <!--Cadastro de Cor-->
+            <label>Cor*</label>
+            <select id="cor">
+            <option value="">Selecione a cor</option>
+            </select>
+            </br>
+            <input type="submit" value="Enviar">
+    </div>
+    <script src="script-adc.js"></script>
+</body>
+</html>
